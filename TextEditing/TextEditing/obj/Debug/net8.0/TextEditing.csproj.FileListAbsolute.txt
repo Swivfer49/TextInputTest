@@ -1,0 +1,15 @@
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\bin\Debug\net8.0\TextEditing.exe
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\bin\Debug\net8.0\TextEditing.deps.json
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\bin\Debug\net8.0\TextEditing.runtimeconfig.json
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\bin\Debug\net8.0\TextEditing.dll
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\bin\Debug\net8.0\TextEditing.pdb
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.AssemblyInfoInputs.cache
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.AssemblyInfo.cs
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.csproj.CoreCompileInputs.cache
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.sourcelink.json
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.dll
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\refint\TextEditing.dll
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.pdb
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\TextEditing.genruntimeconfig.cache
+E:\Coding\Console\WordsCollection\TextInputTest\TextEditing\TextEditing\obj\Debug\net8.0\ref\TextEditing.dll

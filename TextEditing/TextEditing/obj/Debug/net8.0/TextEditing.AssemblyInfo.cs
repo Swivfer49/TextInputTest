@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextEditing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ee7755633e533b31c421b4721e64a26a91b07ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea8bc6b29a5ff00bd512ba5247599f9194cc584b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextEditing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextEditing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

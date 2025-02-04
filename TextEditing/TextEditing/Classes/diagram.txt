@@ -1,0 +1,21 @@
+
+
+TextLine
+-----------
++ Title: string
++ Text: string
+
+
+
+TextEditable
+-----------
+- Lines: List<TextLine>
+- activeLine: int
+- cursorIndex: int
+-----------
++ Edit(line: int, cursor: int): void
+- EditOneKey(): void
+- EditOneLine(): void
+
+- DisplayToolbar(highlightedIndex: int): void
+- WriteWithoutCursorChange(string s): void

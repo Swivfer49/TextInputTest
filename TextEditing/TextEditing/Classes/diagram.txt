@@ -9,13 +9,13 @@ TextLine
 
 TextEditable
 -----------
-- Lines: List<TextLine>
+- lines: List<TextLine>
 - activeLine: int
 - cursorIndex: int
 -----------
 + TextEditable()
 + Edit(line: int, cursor: int): void
-- EditOneKey(): void
-- EditOneLine(): void
+- EditOneKey(): bool
+- EditOneLine(): bool
 - DisplayToolbar(highlightedIndex: int): void
 - WriteWithoutCursorChange(string s): void

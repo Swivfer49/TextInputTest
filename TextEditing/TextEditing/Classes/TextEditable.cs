@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace TextEditing.Classes
 {
@@ -22,27 +23,35 @@ namespace TextEditing.Classes
             bool userExit = false;
             while (!userExit)
             {
-                // display the active line
-
-                    // Item Name
-
-                    // Lines Bar
-
-                    // Line Contents
-
-                    // Set Cursor
-
-                // continue till the user changes lines
-                int line = _active_line;
-                while (line == _active_line)
-                {
-                    EditOneKey();
-                }
-
+                
             }
         }
 
-        private void EditOneKey()
+        private bool EditOneLine()
+        {
+            // display the active line
+
+                // Lines Bar
+
+                // Item Name
+
+                // Line Contents
+
+                // Set Cursor
+
+            // continue till the user changes lines
+            int line = _active_line;
+            while (line == _active_line)
+            {
+                // if user exits
+                if (EditOneKey())
+                {
+                    return true;
+                }
+            }
+        }
+
+        private bool EditOneKey()
         {
             // get key
             ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -66,6 +75,48 @@ namespace TextEditing.Classes
             }
 
             // update console
+        }
+
+        private void DisplayToolbar(int highlightedIndex)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            if(highlightedIndex > 1)
+            {
+                sb.Append($".{highlightedIndex - 1}. ");
+            }
+
+            if(highlightedIndex > 0)
+            {
+                string preTitle = _lines[highlightedIndex - 1].Title;
+                if (preTitle.Length > 4)
+                {
+                    preTitle = $"{preTitle.Substring(0, 3)}+";
+                }
+                sb.Append($"{preTitle} ");
+            }
+
+            string selectedTitle = _lines[highlightedIndex].Title;
+            sb.Append(selectedTitle);
+
+            if(highlightedIndex < _lines.Count - 2)
+            {
+                string postTitle = _lines[highlightedIndex + 1].Title;
+                if (postTitle.Length > 4)
+                {
+                    postTitle = $"{postTitle.Substring(0, 3)}+";
+                }
+                sb.Append($" {postTitle}");
+            }
+
+            if(highlightedIndex < _lines.Count - 1)
+            {
+                sb.Append($" .{_lines.Count - (highlightedIndex + 2)}.");
+            }
+
+            string bar = sb.ToString();
+
+            Console.WriteLine(bar);
         }
 
         private void ConsoleWriteWithoutCursor(string s)

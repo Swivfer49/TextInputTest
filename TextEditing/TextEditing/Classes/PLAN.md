@@ -19,9 +19,13 @@ Below the toolbar will be the text of the selected line.
 
 - `Enter`: Creates a new line (if current line has content).
 - `Delete`: Removes a character after the cursor.
+- `Backspace`: Removes a character before the cursor.
 - `Tab`: Switches between Title and Text editing.
 - `LeftArrow`: Moves cursor left.
 - `RightArrow`: Moves cursor right.
 - `DownArrow`: Moves cursor down.
 - `UpArrow`: Moves cursor up.
-- 
+- `Shift + LeftArrow`: Moves to previous line.
+- `Shift + RightArrow`: Moves to next line.
+- `Shift + Enter`: Exit.
+- Characters: Add character at cursor.

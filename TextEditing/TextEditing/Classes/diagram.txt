@@ -13,9 +13,9 @@ TextEditable
 - activeLine: int
 - cursorIndex: int
 -----------
++ TextEditable()
 + Edit(line: int, cursor: int): void
 - EditOneKey(): void
 - EditOneLine(): void
-
 - DisplayToolbar(highlightedIndex: int): void
 - WriteWithoutCursorChange(string s): void
